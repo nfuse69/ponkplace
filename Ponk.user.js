@@ -23,7 +23,7 @@ function makeOverlay(id, url, width, height, x, y) {
 
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
-        makeOverlay("poke",     "https://i.imgur.com/eHjrRxx.png",     36, 36, 1, 1263);
+        makeOverlay("poke",     "https://i.imgur.com/UsOO8Bt.png",     36, 36, 1, 1263);
 
         document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByClassName("bottom-controls")[0].appendChild(
         (function () {
